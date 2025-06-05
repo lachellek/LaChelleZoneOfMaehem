@@ -8,4 +8,4 @@ IGNORE 1 ROWS
 SET
     week_end_date = STR_TO_DATE(@week_end_date, '%m/%d/%Y'),
     start = STR_TO_DATE(@start, '%m/%d/%Y'),
-    end = STR_TO_DATE(@end, '%m/%d/%Y');
+    end = STR_TO_DATE(@end, '%c/%d/%Y');
